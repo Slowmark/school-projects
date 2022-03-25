@@ -161,7 +161,7 @@ string addBinaries(string binaryA, string binaryB)
     sumBinary.clear();
 
     bool mustAdd = false;
-    for (int i = 7; i >=0; i--)
+    for (int i = 7; i >= 0; i--)
     {
         if (binaryA[i] == '0' && binaryB[i] == '0')
         {
